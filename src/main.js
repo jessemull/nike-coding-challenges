@@ -23,7 +23,7 @@ module.exports.run = function() {
 
 // Instructions:
 // Given a large integer represented as an array of digits, where each digit is the i^th digit of the integer and the digits are ordered
-// from the most significat to the least significatn in left-to-right order, increment the large integer by one and return the resulting
+// from the most significant to the least significant in left-to-right order, increment the large integer by one and return the resulting
 // array of digits. The integer does not contain any leading 0's. The output should be an array of integers.
 // 
 // Example 1
