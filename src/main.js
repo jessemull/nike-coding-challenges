@@ -34,7 +34,7 @@ module.exports.run = function() {
 // Input: [9]
 // Output: [1, 0]
 //
-function plusOne(intputArray = [2, 4, 9]) {
+function plusOne(inputArray = [2, 4, 9]) {
 
   // Write your code here!
 
@@ -72,7 +72,7 @@ function isAnagram(s = "debit card", t = "bad credit") {
 //
 // Using the above APIs, fetch randomly generated data for a given number of users from the United States and return the predicted average age for their first names.
 //
-async function averageAge(numUsers = 10) {
+function averageAge(numUsers = 10) {
   
   // Write your code here!
 
