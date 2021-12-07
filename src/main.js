@@ -4,15 +4,15 @@ module.exports.run = function() {
     // the questions. You can run the problems and see the output by executing this function.
 
 
-    // OUTPUT INTEGER ARRAY
+    // OUTPUT DUPLICATES
   
-    console.log("\n\n-----plusOne-----\n\n");
-    console.log(plusOne());
+    console.log("\n\n-----findDuplicates-----\n\n");
+    console.log(findDuplicates());
 
-    // OUTPUT ANAGRAM TRUE/FALSE
+    // OUTPUT PALINDROME TRUE/FALSE
 
-    console.log("\n\n-----isAnagram-----\n\n");
-    console.log(isAnagram());
+    console.log("\n\n-----isPalindrome-----\n\n");
+    console.log(isPalindrome());
 
 
     // OUTPUT AVERAGE AGE
@@ -22,36 +22,36 @@ module.exports.run = function() {
 }
 
 // Instructions:
-// Given a large integer represented as an array of digits, where each digit is the i^th digit of the integer and the digits are ordered
-// from the most significant to the least significant in left-to-right order, increment the large integer by one and return the resulting
-// array of digits. The integer does not contain any leading 0's. The output should be an array of integers.
-// 
+// Given an array of integers, return an array of all numbers appearing more than once. Only output duplicates one time.
+//
 // Example 1
-// Input: [1, 2, 3]
-// Output: [1, 2, 4]
+// Input: [1, 5, 3, 1, 5, 5]
+// Ouput: [1, 5]
 //
 // Example 2
-// Input: [9]
-// Output: [1, 0]
+// Input: [7, 2, 1, 1, 7, 8]
+// Output: [7, 1]
 //
-function plusOne(inputArray = [2, 4, 9]) {
+function findDuplicates(inputArray = [1, 5, 3, 2, 6, 8, 9, 10, 1, 5, 8, 9, 3, 10, 45, 32, 16, 14, 3, 5, 9]) {
 
   // Write your code here!
 
 }
 
 // Instructions:
-// Given two strings return true if one is an anagram of the other. An anagram is a word formed by rearranging the letters of another word.
+// A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric 
+// characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers. Given a string s, 
+// return true if it is a palindrome, or false otherwise.
 // 
 // Example 1
-// Input: anagram, nagaram
+// Input: 'A man, a plan, a canal: Panama'
 // Output: true
 //
 // Example 2
-// Input: rat, car
+// Input: 'race a car'
 // Output: false
 //
-function isAnagram(s = "debit card", t = "bad credit") {
+function isPalindrome(s = 'A man, a plan, a canal: Panama') {
 
   // Write your code here!
 
