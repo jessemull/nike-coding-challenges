@@ -4,15 +4,15 @@ module.exports.run = function() {
     // the questions. You can run the problems and see the output by executing this function.
 
 
-    // OUTPUT DUPLICATES
+    // OUTPUT SUM
   
-    console.log("\n\n-----findDuplicates-----\n\n");
-    console.log(findDuplicates());
+    console.log("\n\n-----plusOne-----\n\n");
+    console.log(plusOne());
 
-    // OUTPUT PALINDROME TRUE/FALSE
+    // OUTPUT VALID PARENS TRUE/FALSE
 
-    console.log("\n\n-----isPalindrome-----\n\n");
-    console.log(isPalindrome());
+    console.log("\n\n-----validParens-----\n\n");
+    console.log(validParens());
 
 
     // OUTPUT AVERAGE AGE
@@ -22,36 +22,48 @@ module.exports.run = function() {
 }
 
 // Instructions:
-// Given an array of integers, return an array of all numbers appearing more than once. Only output duplicates one time.
-//
+// Given a large integer represented as an array of digits, where each digit is the i^th digit of the integer and the digits are ordered
+// from the most significat to the least significatn in left-to-right order, increment the large integer by one and return the resulting
+// array of digits. The integer does not contain any leading 0's. The output should be an array of integers.
+// 
 // Example 1
-// Input: [1, 5, 3, 1, 5, 5]
-// Ouput: [1, 5]
+// Input: [1, 2, 3]
+// Output: [1, 2, 4]
 //
 // Example 2
-// Input: [7, 2, 1, 1, 7, 8]
-// Output: [7, 1]
+// Input: [9]
+// Output: [1, 0]
 //
-function findDuplicates(inputArray = [1, 5, 3, 2, 6, 8, 9, 10, 1, 5, 8, 9, 3, 10, 45, 32, 16, 14, 3, 5, 9]) {
-
+function plusOne(intputArray = [2, 4, 9]) {
+  
   // Write your code here!
 
 }
 
 // Instructions:
-// A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric 
-// characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers. Given a string s, 
-// return true if it is a palindrome, or false otherwise.
+// Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 // 
-// Example 1
-// Input: 'A man, a plan, a canal: Panama'
+// An input string is valid if:
+// 1. Open brackets must be closed by the same type of brackets.
+// 2. Open brackets must be closed in the correct order.
+// 
+// Example 1:
+// Input: ()
 // Output: true
 //
-// Example 2
-// Input: 'race a car'
+// Example 2:
+// Input: ()[]{}
+// Output: true
+// 
+// Example 3:
+// Input: ([)]
 // Output: false
 //
-function isPalindrome(s = 'A man, a plan, a canal: Panama') {
+// Example 4:
+// Input: {[]}
+// Output: true
+//
+function validParens(s = '({})') {
 
   // Write your code here!
 
