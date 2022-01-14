@@ -3,11 +3,10 @@ module.exports.run = function() {
     // Complete all problems below. Feel free to look up any information you'd like outside of the actual answers to
     // the questions. You can run the problems and see the output by executing this function.
 
-
-    // OUTPUT SUM
+    // OUTPUT INDICES
   
-    console.log("\n\n-----plusOne-----\n\n");
-    console.log(plusOne());
+    console.log("\n\n-----twoSum-----\n\n");
+    console.log(twoSum());
 
     // OUTPUT VALID PARENS TRUE/FALSE
 
@@ -22,19 +21,18 @@ module.exports.run = function() {
 }
 
 // Instructions:
-// Given a large integer represented as an array of digits, where each digit is the i^th digit of the integer and the digits are ordered
-// from the most significat to the least significatn in left-to-right order, increment the large integer by one and return the resulting
-// array of digits. The integer does not contain any leading 0's. The output should be an array of integers.
-// 
+// Given an array of integers and a target value, return the INDICES of the two numbers such that they add up to the target.
+// You may assume that each input would have exactly one solution and you may not use the same element twice.
+//
 // Example 1
-// Input: [1, 2, 3]
-// Output: [1, 2, 4]
+// Input: [2, 7, 11, 15], target = 9
+// Output: [0, 1] because 2 + 7 === 9
 //
 // Example 2
-// Input: [9]
-// Output: [1, 0]
+// Input: [3, 2, 4], target = 6
+// Output: [1, 2] because 2 + 4 === 6
 //
-function plusOne(intputArray = [2, 4, 9]) {
+function twoSum(inputArray = [1, 5, 2, 0, 4, 11, 9, 6, 12, 7], target = 9) {
   
   // Write your code here!
 
