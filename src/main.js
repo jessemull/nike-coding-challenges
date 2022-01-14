@@ -3,7 +3,6 @@ module.exports.run = function() {
     // Complete all problems below. Feel free to look up any information you'd like outside of the actual answers to
     // the questions. You can run the problems and see the output by executing this function.
 
-
     // OUTPUT INDICES
   
     console.log("\n\n-----twoSum-----\n\n");
@@ -62,7 +61,7 @@ function twoSum(inputArray = [1, 5, 2, 0, 4, 11, 9, 6, 12, 7], target = 9) {
 // Input: {[]}
 // Output: true
 //
-function validParens(s = '()') {
+function validParens(s = '({})') {
 
   // Write your code here!
 
