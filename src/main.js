@@ -3,15 +3,24 @@ module.exports.run = function() {
     // Complete all problems below. Feel free to look up any information you'd like outside of the actual answers to
     // the questions. You can run the problems and see the output by executing this function.
 
+<<<<<<< HEAD
+
+    // OUTPUT PALINDROME TRUE/FALSE
+=======
     // OUTPUT SUM
+>>>>>>> c12199dcce17ce8e9d973ce33ef77f87e09fe484
   
-    console.log("\n\n-----plusOne-----\n\n");
-    console.log(plusOne());
+    console.log("\n\n-----isPalindrome-----\n\n");
+    console.log(isPalindrome());
 
+<<<<<<< HEAD
+    // OUTPUT INTEGER
+=======
     // OUTPUT TRUE/FALSE
+>>>>>>> c12199dcce17ce8e9d973ce33ef77f87e09fe484
 
-    console.log("\n\n-----isAnagram-----\n\n");
-    console.log(isAnagram());
+    console.log("\n\n-----romanToInt-----\n\n");
+    console.log(romanToInt());
 
 
     // OUTPUT AVERAGE AGE
@@ -21,37 +30,60 @@ module.exports.run = function() {
 }
 
 // Instructions:
-// Given a large integer represented as an array of digits, where each digit is the i^th digit of the integer and the digits are ordered
-// from the most significat to the least significatn in left-to-right order, increment the large integer by one and return the resulting
-// array of digits. The integer does not contain any leading 0's. The output should be an array of integers.
+// A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric 
+// characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers. Given a string s, 
+// return true if it is a palindrome, or false otherwise.
 // 
 // Example 1
-// Input: [1, 2, 3]
-// Output: [1, 2, 4]
+// Input: 'A man, a plan, a canal: Panama'
+// Output: true
 //
 // Example 2
-// Input: [9]
-// Output: [1, 0]
+// Input: 'race a car'
+// Output: false
 //
-function plusOne(intputArray = [2, 4, 9]) {
-
+function isPalindrome(s = 'A man, a plan, a canal: Panama') {
+  
   // Write your code here!
 
 }
 
 // Instructions:
-// Given two strings return true if one is an anagram of the other. An anagram is a word formed by rearranging the letters of another word.
-// 
-// Example 1
-// Input: anagram, nagaram
-// Output: true
+// Given a roman numeral, convert it to an integer.
 //
-// Example 2
-// Input: rat, car
-// Output: false
+// Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 //
-function isAnagram(s = "debit card", t = "bad credit") {
-
+// Symbol       Value
+// I            1
+// V            5
+// X            10
+// L            50
+// C            100
+// D            500
+// M            1000
+//
+// Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not IIII. 
+// Instead, the number four is written as IV. Because the one is before the five we subtract it making four. The same 
+// principle applies to the number nine, which is written as IX. There are six instances where subtraction is used:
+//
+// I can be placed before V (5) and X (10) to make 4 and 9. 
+// X can be placed before L (50) and C (100) to make 40 and 90. 
+// C can be placed before D (500) and M (1000) to make 400 and 900.
+//
+// Example 1:
+// Input: III
+// Output: 3
+//
+// Example 2:
+// Input: IV
+// Output: 4
+//
+// Example 3:
+// Input: IX
+// Output: 9
+//
+function romanToInt(s = 'IV') {
+  
   // Write your code here!
 
 }
