@@ -3,21 +3,13 @@ module.exports.run = function() {
     // Complete all problems below. Feel free to look up any information you'd like outside of the actual answers to
     // the questions. You can run the problems and see the output by executing this function.
 
-<<<<<<< HEAD
 
     // OUTPUT PALINDROME TRUE/FALSE
-=======
-    // OUTPUT SUM
->>>>>>> c12199dcce17ce8e9d973ce33ef77f87e09fe484
   
     console.log("\n\n-----isPalindrome-----\n\n");
     console.log(isPalindrome());
 
-<<<<<<< HEAD
     // OUTPUT INTEGER
-=======
-    // OUTPUT TRUE/FALSE
->>>>>>> c12199dcce17ce8e9d973ce33ef77f87e09fe484
 
     console.log("\n\n-----romanToInt-----\n\n");
     console.log(romanToInt());
