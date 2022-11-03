@@ -1,5 +1,6 @@
-module.exports.run = function() {
+import fetch from 'node-fetch'
 
+function run() {
     // Complete all problems below. Feel free to look up any information you'd like outside of the actual answers to
     // the questions. You can run the problems and see the output by executing this function.
 
@@ -9,7 +10,7 @@ module.exports.run = function() {
     console.log(averageAge());
 
     // OUTPUT ANAGRAM TRUE/FALSE
-  
+
     console.log("\n\n-----isAnagram-----\n\n");
     console.log(isAnagram());
 
@@ -96,3 +97,5 @@ function romanToInt(s = 'IV') {
   // Write your code here!
 
 }
+
+run()
