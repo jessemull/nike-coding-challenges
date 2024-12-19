@@ -1,13 +1,11 @@
-import fetch from 'node-fetch'
-
-async function run() {
+function run() {
     // Complete all problems below. Feel free to look up any information you'd like outside of the actual answers to
     // the questions. You can run the problems and see the output by executing this function.
 
     // OUTPUT PROVIDER NAMES
 
     console.log("\n\n-----findChains-----\n\n");
-    console.log(await findChains());
+    console.log(findChains());
 
     // OUTPUT PARENS VALID TRUE/FALSE
 
