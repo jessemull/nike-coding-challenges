@@ -2,19 +2,19 @@ function run() {
     // Complete all problems below. Feel free to look up any information you'd like outside of the actual answers to
     // the questions. You can run the problems and see the output by executing this function.
 
-    // OUTPUT PROVIDER NAMES
+    // OUTPUT INTERSECTION OF TWO ARRAYS
 
-    console.log("\n\n-----findChains-----\n\n");
+    console.log("\n\n-----intersectionOfTwoArrays-----\n\n");
     console.log(intersectionOfTwoArrays());
 
-    // OUTPUT PARENS VALID TRUE/FALSE
+    // OUTPUT LONGEST COMMON PREFIX
 
-    console.log("\n\n-----validParens-----\n\n");
+    console.log("\n\n-----longestCommonPrefix-----\n\n");
     console.log(longestCommonPrefix());
 
-    // OUTPUT ARRAY WITH MOVED ZEROES
+    // OUTPUT PROVIDERS
 
-    console.log("\n\n-----moveZeroes-----\n\n");
+    console.log("\n\n-----findChains-----\n\n");
     console.log(findChains());
 
     // OUTPUT TARGET INDEX OR -1
@@ -36,7 +36,7 @@ function run() {
 // Output: [4,9]
 // Explanation: [9,4] is also accepted.
 //
-async function intersectionOfTwoArrays(zipCode = "97005") {
+function intersectionOfTwoArrays(nums1 = [4,9,5], nums2 = [9,4,9,8,4]) {
 
 }
 
@@ -52,7 +52,7 @@ async function intersectionOfTwoArrays(zipCode = "97005") {
 // Input: strs = ["dog","racecar","car"]
 // Output: ""
 //
-function longestCommonPrefix(s = '()') {
+function longestCommonPrefix(s = ["flower","flow","flight"]) {
 
 }
 
