@@ -5,22 +5,55 @@ function run() {
     // OUTPUT PROVIDER NAMES
 
     console.log("\n\n-----findChains-----\n\n");
-    console.log(findChains());
+    console.log(intersectionOfTwoArrays());
 
     // OUTPUT PARENS VALID TRUE/FALSE
 
     console.log("\n\n-----validParens-----\n\n");
-    console.log(validParens());
+    console.log(longestCommonPrefix());
 
     // OUTPUT ARRAY WITH MOVED ZEROES
 
     console.log("\n\n-----moveZeroes-----\n\n");
-    console.log(moveZeroes());
+    console.log(findChains());
 
     // OUTPUT TARGET INDEX OR -1
 
     console.log("\n\n-----findTarget-----\n\n");
     console.log(findTarget());
+}
+
+// Instructions:
+// Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result 
+// must appear as many times as it shows in both arrays and you may return the result in any order.
+//
+// Example 1:
+// Input: nums1 = [1,2,2,1], nums2 = [2,2]
+// Output: [2,2]
+//
+// Example 2:
+// Input: nums1 = [4,9,5], nums2 = [9,4,9,8,4]
+// Output: [4,9]
+// Explanation: [9,4] is also accepted.
+//
+async function intersectionOfTwoArrays(zipCode = "97005") {
+
+}
+
+// Instructions:
+// Write a function to find the longest common prefix string amongst an array of strings. If there is no common 
+// prefix, return an empty string "".
+// 
+// Example 1:
+// Input: strs = ["flower","flow","flight"]
+// Output: "fl"
+//
+// Example 2:
+// Input: strs = ["dog","racecar","car"]
+// Output: ""
+//
+function longestCommonPrefix(s = '()') {
+
 }
 
 //  Instructions:
@@ -36,50 +69,8 @@ function run() {
 //
 //  Get up to 10 providers by organization name:
 //  https://npiregistry.cms.hhs.gov/api/?version=2.1&enumeration_type=NPI-2&organization_name=THERAPEUTIC%20ASSOCIATES%20INC
-async function findChains(zipCode = "97005") {
-
-}
-
-// Instructions:
-// Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
-// 
-// An input string is valid if:
-// 1. Open brackets must be closed by the same type of brackets.
-// 2. Open brackets must be closed in the correct order.
-// 
-// Example 1:
-// Input: ()
-// Output: true
 //
-// Example 2:
-// Input: ()[]{}
-// Output: true
-// 
-// Example 3:
-// Input: ([)]
-// Output: false
-//
-// Example 4:
-// Input: {[]}
-// Output: true
-//
-function validParens(s = '()') {
-
-}
-
-// Instructions:
-// Given an integer array of numbers, move all 0's to the end of it while maintaining the relative order of the non-zero elements in the array.
-// Do this in place without making a copy of the array.
-//
-// Example 1:
-// Input: [0, 1, 0, 3, 12]
-// Output: [1, 3, 12, 0, 0]
-//
-// Example 2:
-// Input: [0]
-// Output: [0]
-//
-function moveZeroes(nums = [0, 1, 0, 3, 12]) {
+function findChains(zipCode = "97005") {
 
 }
 
